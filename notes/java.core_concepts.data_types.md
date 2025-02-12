@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1739400190965
+updated: 1739400337919
 created: 1739400190965
 ---
 
@@ -104,3 +104,5 @@ created: 1739400190965
     }
 </style>
 <!--#endregion-->
+
+# Data Types

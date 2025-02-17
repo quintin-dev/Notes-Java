@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1739479166578
+updated: 1739833750267
 created: 1739400190965
 ---
 

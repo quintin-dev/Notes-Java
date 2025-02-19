@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1740006523591
+updated: 1740006548072
 created: 1739400190965
 ---
 
@@ -110,6 +110,7 @@ created: 1739400190965
 Java has two categories of data types:
 
 1. **Primitive Data Types**: These are the basic data types provided by Java. They are not objects and hold their values directly in memory. The primitive data types in Java are:
+
     - `byte`: 8-bit signed integer
     - `short`: 16-bit signed integer
     - `int`: 32-bit signed integer
@@ -118,3 +119,5 @@ Java has two categories of data types:
     - `double`: 64-bit floating-point number
     - `char`: 16-bit Unicode character
     - `boolean`: Represents one bit of information, either `true` or `false`
+
+2. **Reference Data Types**: These are data types that refer to objects and are created using defined classes. They can hold references to objects and arrays. Examples include:

@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1739833750267
+updated: 1740006523591
 created: 1739400190965
 ---
 
@@ -106,3 +106,15 @@ created: 1739400190965
 <!--#endregion-->
 
 # Data Types
+
+Java has two categories of data types:
+
+1. **Primitive Data Types**: These are the basic data types provided by Java. They are not objects and hold their values directly in memory. The primitive data types in Java are:
+    - `byte`: 8-bit signed integer
+    - `short`: 16-bit signed integer
+    - `int`: 32-bit signed integer
+    - `long`: 64-bit signed integer
+    - `float`: 32-bit floating-point number
+    - `double`: 64-bit floating-point number
+    - `char`: 16-bit Unicode character
+    - `boolean`: Represents one bit of information, either `true` or `false`

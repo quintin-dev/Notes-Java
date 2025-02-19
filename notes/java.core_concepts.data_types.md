@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1740006548072
+updated: 1740006588386
 created: 1739400190965
 ---
 
@@ -121,3 +121,7 @@ Java has two categories of data types:
     - `boolean`: Represents one bit of information, either `true` or `false`
 
 2. **Reference Data Types**: These are data types that refer to objects and are created using defined classes. They can hold references to objects and arrays. Examples include:
+    - Classes
+    - Interfaces
+    - Arrays
+    - Enums

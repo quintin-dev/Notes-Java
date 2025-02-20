@@ -2,7 +2,7 @@
 id: 66cho60v610ia8oqaodppnz
 title: Primitive
 desc: ''
-updated: 1740092392492
+updated: 1740092493548
 created: 1739479789729
 ---
 
@@ -105,11 +105,12 @@ created: 1739479789729
 </style>
 <!--#endregion-->
 
-## Primitive Data Types
+# Primitive Data Types
 
 ## Quick Reference
 
 -   <b>byte</b>: 1-byte integer (-128 to 127)
+
 -   <b>short</b>: 2-byte integer
 -   <b>int</b>: 4-byte integer (commonly used)
 -   <b>long</b>: 8-byte integer

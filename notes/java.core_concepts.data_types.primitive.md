@@ -2,7 +2,7 @@
 id: 66cho60v610ia8oqaodppnz
 title: Primitive
 desc: ''
-updated: 1739479789729
+updated: 1740091937591
 created: 1739479789729
 ---
 
@@ -104,3 +104,5 @@ created: 1739479789729
     }
 </style>
 <!--#endregion-->
+
+## Primitive Data Types

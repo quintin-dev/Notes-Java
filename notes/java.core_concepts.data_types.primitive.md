@@ -2,7 +2,7 @@
 id: 66cho60v610ia8oqaodppnz
 title: Primitive
 desc: ''
-updated: 1740091937591
+updated: 1740092392492
 created: 1739479789729
 ---
 
@@ -106,3 +106,14 @@ created: 1739479789729
 <!--#endregion-->
 
 ## Primitive Data Types
+
+## Quick Reference
+
+-   <b>byte</b>: 1-byte integer (-128 to 127)
+-   <b>short</b>: 2-byte integer
+-   <b>int</b>: 4-byte integer (commonly used)
+-   <b>long</b>: 8-byte integer
+-   <b>float</b>: single-precision 32-bit floating-point
+-   <b>double</b>: double-precision 64-bit floating-point (commonly used)
+-   <b>boolean</b>: true or false
+-   <b>char</b>: 16-bit Unicode character

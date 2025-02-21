@@ -2,7 +2,7 @@
 id: 9yppd21h41kdeox52ajxy0w
 title: Data_types
 desc: ''
-updated: 1740175627121
+updated: 1740175779996
 created: 1739400190965
 ---
 
@@ -109,9 +109,9 @@ created: 1739400190965
 
 Java has two categories of data types:
 
-1. **Primitive Data Types**: These are the basic data types provided by Java. They are not objects and hold their values directly in memory. The primitive data types in Java are:
+1. <b>Primitive Data Types:</b> These are the basic data types provided by Java. They are not objects and hold their values directly in memory. The primitive data types in Java are:
 
-2. **Reference Data Types**: These are data types that refer to objects and are created using defined classes. They can hold references to objects and arrays. Examples include:
+2. <b>Reference Data Types</b> These are data types that refer to objects and are created using defined classes. They can hold references to objects and arrays. Examples include:
     - Classes
     - Interfaces
     - Arrays

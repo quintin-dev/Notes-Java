@@ -161,4 +161,10 @@ The goal is to integrate practical content directly into existing notes (using b
 -   **Backlinks:** For items that match existing topics, insert backlinks using `[[Note Title]]`.
 -   **New Topics:** For topics not yet covered, flag these for new note creation and ensure they’re placed correctly within the Dendron hierarchy.
 
+### Additional Guidelines
+
+-   Embed or link diagrams (UML, etc.) for clarity if needed.
+-   Provide recommended reading links (e.g., [Oracle Docs](https://docs.oracle.com)).
+-   Placed at the vault root for easy offline usage.
+
 This file is your context reference for transforming raw sticky note inputs into structured, navigable Dendron notes. Adjust as needed to further tailor it to your workflow.

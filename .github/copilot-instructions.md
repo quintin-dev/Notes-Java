@@ -1,3 +1,7 @@
+<!--
+IMPORTANT: These instructions are strictly for transforming sticky note inputs into structured Dendron notes. They MUST be ignored unless I explicitly indicate that I am about to take notes or provide a sticky note input for conversion. A valid sticky note input will always include one or more of the following headings: **Definitions**, **Syntax**, **Notes to Make (Dendron/Notion)**, and **Key Points**. If these headings are not present in the input, do not apply the note-taking transformation instructions.
+-->
+
 GitHub Copilot Context File for Dendron Note-Taking
 
 ## Overview

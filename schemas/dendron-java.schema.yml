@@ -1,0 +1,129 @@
+version: 1
+# Dendron Schema for Java
+
+schemas:
+    - id: java
+      desc: 'Top-level schema for Java notes'
+      namespace: true
+      match: java
+
+      # Child schemas for main Java topics:
+      children:
+          - id: core_concepts
+            desc: 'Essential Java language fundamentals (variables, data types, operators, conditionals, loops, etc.)'
+            namespace: true
+            match: java.core_concepts
+            children:
+                - id: variables
+                  desc: 'Notes on declaring and using variables in Java'
+                  match: java.core_concepts.variables
+                - id: data_types
+                  desc: 'Primitive and reference data types in Java'
+                  match: java.core_concepts.data_types
+                - id: operators
+                  desc: 'Arithmetic, comparison, logical operators, etc.'
+                  match: java.core_concepts.operators
+                - id: conditionals
+                  desc: 'if, else if, switch statements'
+                  match: java.core_concepts.conditionals
+                - id: loops
+                  desc: 'for, while, do-while, for-each loops'
+                  match: java.core_concepts.loops
+
+          - id: syntax
+            desc: 'Java syntax rules, statements, and language structure'
+            match: java.syntax
+
+          - id: methods
+            desc: 'Methods in Java, including static methods, instance methods, overloading, overriding'
+            match: java.methods
+
+          - id: oop
+            desc: 'Object-oriented programming in Java (classes, objects, inheritance, polymorphism, encapsulation, abstraction)'
+            match: java.oop
+
+          - id: collections
+            desc: 'Java Collections Framework (List, Set, Map, Queue, etc.)'
+            namespace: true
+            match: java.collections
+            children:
+                - id: list
+                  desc: 'List interface, ArrayList, LinkedList, etc.'
+                  match: java.collections.list
+                - id: set
+                  desc: 'HashSet, TreeSet, LinkedHashSet, etc.'
+                  match: java.collections.set
+                - id: map
+                  desc: 'HashMap, TreeMap, LinkedHashMap, etc.'
+                  match: java.collections.map
+                - id: queue
+                  desc: 'PriorityQueue, LinkedList as Queue, etc.'
+                  match: java.collections.queue
+
+          - id: exceptions
+            desc: 'Exception handling in Java (try-catch, throw, throws)'
+            match: java.exceptions
+
+          - id: concurrency
+            desc: 'Threads, concurrency utilities, synchronization, parallel streams, etc.'
+            match: java.concurrency
+
+          - id: generics
+            desc: 'Generics in Java, type parameters, wildcards, bounds'
+            match: java.generics
+
+          - id: io
+            desc: 'File I/O, streams, readers, writers'
+            match: java.io
+
+          - id: frameworks
+            desc: 'Popular Java frameworks (Spring, Hibernate, Java EE, etc.)'
+            namespace: true
+            match: java.frameworks
+            children:
+                - id: spring
+                  desc: 'Spring Framework (Core, Boot, MVC, Security, etc.)'
+                  match: java.frameworks.spring
+                - id: hibernate
+                  desc: 'Hibernate ORM notes and usage'
+                  match: java.frameworks.hibernate
+
+          - id: build_tools
+            desc: 'Maven, Gradle, and other Java build tools'
+            namespace: true
+            match: java.build_tools
+            children:
+                - id: maven
+                  desc: 'Maven usage, pom.xml configuration, plugins'
+                  match: java.build_tools.maven
+                - id: gradle
+                  desc: 'Gradle usage, build.gradle configuration, plugins'
+                  match: java.build_tools.gradle
+
+          - id: testing
+            desc: 'Testing frameworks (JUnit, TestNG), mocking (Mockito), best practices'
+            namespace: true
+            match: java.testing
+            children:
+                - id: junit
+                  desc: 'JUnit basics, annotations, usage, etc.'
+                  match: java.testing.junit
+                - id: mockito
+                  desc: 'Mockito usage for mocking and stubbing in Java tests'
+                  match: java.testing.mockito
+
+          - id: advanced
+            desc: 'Advanced Java topics (JVM internals, performance, etc.)'
+            namespace: true
+            match: java.advanced
+            children:
+                - id: jvm_internals
+                  desc: 'JVM architecture, class loading, memory model, garbage collection'
+                  match: java.advanced.jvm_internals
+                - id: performance
+                  desc: 'Performance tuning, profiling, optimization'
+                  match: java.advanced.performance
+
+          - id: best_practices
+            desc: 'Coding standards, style guides, design patterns, security, etc.'
+            match: java.best_practices

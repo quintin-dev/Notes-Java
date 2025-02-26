@@ -2,7 +2,7 @@
 id: 5z0mquc9f3uofi0tai3hx7i
 title: Java
 desc: ''
-updated: 1739573540656
+updated: 1740518996910
 created: 1739571858911
 ---
 

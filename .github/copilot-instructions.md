@@ -26,38 +26,17 @@ The goal is to integrate practical content directly into existing notes (using b
 
 ---
 
-## Section Instructions
+## Java Workspace Structure
 
-### 1. Definitions
+-   See `dendron-java.schema.yml` for the full Java note hierarchy.
+-   When creating new Java notes, follow the `java.*` structure.
+-   If a note doesn't fit an existing topic, update the schema accordingly.
 
--   **Purpose:** Capture key terms and definitions.
--   **Handling:**
-    -   If a definition exists in an appropriate Dendron note, insert a backlink (e.g., `[[Existing Definition Note]]`).
-    -   Otherwise, include the definition inline.
--   **Note:** Do not create separate notes solely for definitions unless absolutely necessary.
+---
 
-### 2. Syntax
+## CSS Integration
 
--   **Purpose:** Record code snippets or syntax examples relevant to the topic.
--   **Handling:**
-    -   Format code examples using Markdown code blocks with appropriate language identifiers (e.g., `java, `js).
-    -   Integrate these directly into the relevant note or include inline if no dedicated syntax note exists.
-
-### 3. Notes to Make (Dendron/Notion)
-
--   **Purpose:** List topics that require further note development for later reference.
--   **Handling:**
-    -   Only include items that are practical and industry-relevant.
-    -   For existing topics, insert backlinks (e.g., `[[Topic Note]]`).
-    -   For new topics, flag them for creation within the Dendron hierarchy.
-
-### 4. Key Points
-
--   **Purpose:** Summarize critical insights and practical tips.
--   **Handling:**
-    -   Format each key point as a blockquote to apply custom CSS styling.
-    -   Keep statements concise and highlighted.
--   **CSS Integration:** The following CSS be pasted at the beginning all new note files created by Copilot Edits:
+The following CSS enclosed in region styles comments including the region styles comments themselves must be pasted at the beginning of all new note files exactly as it appears below:
 
 <!--#region styles-->
 <style>
@@ -160,6 +139,40 @@ The goal is to integrate practical content directly into existing notes (using b
 
 ---
 
+## Section Instructions
+
+### 1. Definitions
+
+-   **Purpose:** Capture key terms and definitions.
+-   **Handling:**
+    -   If a definition exists in an appropriate Dendron note, insert a backlink (e.g., `[[Existing Definition Note]]`).
+    -   Otherwise, include the definition inline.
+-   **Note:** Do not create separate notes solely for definitions unless absolutely necessary.
+
+### 2. Syntax
+
+-   **Purpose:** Record code snippets or syntax examples relevant to the topic.
+-   **Handling:**
+    -   Format code examples using Markdown code blocks with appropriate language identifiers (e.g., `java, `js).
+    -   Integrate these directly into the relevant note or include inline if no dedicated syntax note exists.
+
+### 3. Notes to Make (Dendron/Notion)
+
+-   **Purpose:** List topics that require further note development for later reference.
+-   **Handling:**
+    -   Only include items that are practical and industry-relevant.
+    -   For existing topics, insert backlinks (e.g., `[[Topic Note]]`).
+    -   For new topics, flag them for creation within the Dendron hierarchy.
+
+### 4. Key Points
+
+-   **Purpose:** Summarize critical insights and practical tips.
+-   **Handling:**
+    -   Format each key point as a blockquote to apply custom CSS styling.
+    -   Keep statements concise and highlighted.
+
+---
+
 ## Backlinks and New File Creation
 
 -   **Backlinks:** For items that match existing topics, insert backlinks using `[[Note Title]]`.
@@ -170,5 +183,3 @@ The goal is to integrate practical content directly into existing notes (using b
 -   Embed or link diagrams (UML, etc.) for clarity if needed.
 -   Provide recommended reading links (e.g., [Oracle Docs](https://docs.oracle.com)).
 -   Placed at the vault root for easy offline usage.
-
-This file is your context reference for transforming raw sticky note inputs into structured, navigable Dendron notes. Adjust as needed to further tailor it to your workflow.
